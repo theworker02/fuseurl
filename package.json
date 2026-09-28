@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/fuseurl",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fuse encode/decode helpers for url payloads in pipelines.",
+  "bin": {
+    "fuseurl": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/fuseurl.git"
+  },
+  "homepage": "https://theworker02.github.io/fuseurl/",
+  "keywords": [
+    "fuse",
+    "url",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
